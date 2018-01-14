@@ -1,0 +1,17 @@
+:local(.friendList) {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+:local(.listContainer){
+  min-height: 210px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+:local(.notFound){
+  list-style: none;
+  background: #fff;
+  padding: 10px;
+  font-weight: bold;
+  color: #c73232;
+}

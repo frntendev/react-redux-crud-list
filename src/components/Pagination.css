@@ -1,0 +1,26 @@
+:local(.container) {
+    display: flex;
+    color: #fff;
+    background: #fff;
+}
+:local(.pageLink){
+    margin: 2px;
+    flex: 1 1 40px;
+    padding: 2px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+:local(.pageLink):hover:not(:local(.currentLink)) {
+    background-color: #f1f1f1;
+}
+:local(.pageLink a){
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    text-decoration: none;
+}
+:local(.currentLink) {
+    background-color: #e8e8e8;
+}
