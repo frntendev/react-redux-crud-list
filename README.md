@@ -2,6 +2,25 @@
 
 > A User Management application written in React and Redux
 
+### Installation
+
+```
+npm install
+```
+
+### Run the project
+
+```
+npm start
+```
+
+### Run tests
+After installation dev dependencies.
+
+```
+npm test
+```
+
 ## Features
 
 - [x] Create a user
