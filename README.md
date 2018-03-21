@@ -20,6 +20,18 @@ After installation dev dependencies.
 ```
 npm run test
 ```
+## Packages and frameworks
+
+- [x] Material-UI
+- [x] Emotion: The [fastest](https://github.com/A-gambit/CSS-IN-JS-Benchmarks/blob/master/RESULT.md) CSS-in-JS solution!
+- [x] Create a group
+- [x] Delete a group
+- [x] Add users to groups (via drag-n-drop)
+- [x] Remove users from group
+- [x] Search users
+- [x] Search groups
+- [x] View user profile
+- [x] List groups members
 
 ## Features
 
@@ -53,14 +65,3 @@ that will work their way into this project in the future:
 - [ ] Jest
 - [ ] Redux Saga (or redux-loop)
 
-## The Future
-
-I spent some time designing a more interesting Interface, as well as some interesting features like a
-console messaging system (which could be implemented with some Redux middleware), and I eventually want
-to make the entire interface support drag and drop behaviors.
-
-![](media/screenshot-future.jpg)
-
-## License
-
-MIT
