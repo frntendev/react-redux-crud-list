@@ -22,46 +22,34 @@ npm run test
 ```
 ## Packages and frameworks
 
+Here are a few of the highlighted technologies used in this project, as well as a few anticipated technologies
+that will work their way into this project in the future:
+
+- [x] React + Redux
+- [x] Redux-thunk
 - [x] Material-UI
 - [x] Emotion: The [fastest](https://github.com/A-gambit/CSS-IN-JS-Benchmarks/blob/master/RESULT.md) CSS-in-JS solution!
-- [x] Create a group
-- [x] Delete a group
-- [x] Add users to groups (via drag-n-drop)
-- [x] Remove users from group
-- [x] Search users
-- [x] Search groups
-- [x] View user profile
-- [x] List groups members
+- [x] Jest + Enzyme testing tools
 
-## Features
+## Capabilities
 
 - [x] Create a user
 - [x] Delete a user
 - [x] Create a group
-- [x] Delete a group
+- [x] Delete a group (when that no longer has members)
 - [x] Add users to groups (via drag-n-drop)
 - [x] Remove users from group
 - [x] Search users
 - [x] Search groups
-- [x] View user profile
+- [x] A list of all groups that a given user is in
 - [x] List groups members
+- [x] Client side validation
+- [x] Show a popup notification after each activity
+- [x] Fully responsive
+- [x] Snapshot tests with Enzyme and Jest
+- [x] Reducer test (Actually it's an example to write a unit test for a reducer)
 
 ## Usage
 
-Everything in this app is controlled with the buttons you see on the interface (the `X` button will remove a user, a group, or a user from a group,
-and the `View` button will show the user or group profile). The only exception to this is that you add users to a group by dragging and dropping the user
-into the target group. If the member is not already a part of that group, he or she will be added to the group.
-## Tools
 
-Here are a few of the highlighted technologies used in this project, as well as a few anticipated technologies
-that will work their way into this project in the future:
-
-- [x] React
-- [x] Redux
-- [x] redux-thunk
-- [x] redux-logger
-- [x] reselect
-- [x] Drag and Drop features (via react-dnd)
-- [ ] Jest
-- [ ] Redux Saga (or redux-loop)
 
