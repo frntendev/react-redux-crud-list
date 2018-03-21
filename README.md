@@ -18,7 +18,7 @@ npm start
 After installation dev dependencies.
 
 ```
-npm test
+npm run test
 ```
 
 ## Features
