@@ -48,8 +48,3 @@ that will work their way into this project in the future:
 - [x] Fully responsive
 - [x] Snapshot tests with Enzyme and Jest
 - [x] Reducer test (Actually it's an example to write a unit test for a reducer)
-
-## Usage
-
-
-
